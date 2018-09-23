@@ -5,7 +5,7 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 
 verticies = (
-    (1, -1, -1),
+    (-1, -1, -1),
     (1, 1, -1),
     (-1, 1, -1),
     (-1, -1, -1),
@@ -59,6 +59,5 @@ def main():
         Cube()
         pygame.display.flip()
         pygame.time.wait(10)
-
 
 main()
